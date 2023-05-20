@@ -1,0 +1,24 @@
+.customers__rect {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid getColor('tertiary');
+  border-radius: 4px;
+  background: getColor('light');
+  transition: $hoverTransition;
+  &:hover,
+  &:focus {
+    border-color: getColor('secondary');
+  }
+}
+.customers__icon {
+  padding-top: 2px;
+  fill: getColor('tertiary');
+  transition: $hoverTransition;
+  &:hover,
+  &:focus {
+    fill: getColor('secondary');
+  }
+}

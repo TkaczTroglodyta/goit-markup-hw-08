@@ -1,0 +1,16 @@
+@use './utils/variables' as *;
+@use './utils/colors' as *;
+@use './utils/weights' as *;
+@import './utils/reset';
+@import './components/page-base';
+@import './components/page-header';
+@import './components/slogan';
+@import './components/infos';
+@import './components/activities';
+@import './components/team';
+@import './components/customers';
+@import './components/page-footer';
+@import './components/modal';
+@import './components/form';
+@import './components/buttons';
+@import './components/achievements';
