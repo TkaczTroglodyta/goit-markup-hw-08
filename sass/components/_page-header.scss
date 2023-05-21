@@ -76,18 +76,21 @@
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    color: getColor('light');
   }
   .page-header__mobile-menu {
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: $defaultNone;
   }
   .page-header__mobile-menu .page-link {
     display: block;
     padding: 10px;
-    color: #fff;
-    text-decoration: none;
+    color: getColor('primary');
+    text-decoration: $defaultNone;
+    &:hover {
+      color: getColor('secondary');
+    }
   }
 }
 // .page-header__link {
