@@ -64,16 +64,15 @@
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background-color: getColor('light');
     z-index: 999;
-
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
   .page-header__menu-container.is-open {
     transform: translateX(0);
   }
-  .page-header__menu-container .menu-toggle {
+  .page-header__menu-container .page-header-menu-toggle {
     position: absolute;
     top: 16px;
     right: 16px;
@@ -84,7 +83,7 @@
     margin: 0;
     list-style: none;
   }
-  .page-header__mobile-menu .page-header__link {
+  .page-header__mobile-menu .page-link {
     display: block;
     padding: 10px;
     color: #fff;
