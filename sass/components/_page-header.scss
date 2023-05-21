@@ -86,16 +86,37 @@
   .page-header__mobile-menu {
     padding: 0;
     margin-top: 9px;
+    font-weight: getWeight('medium');
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     list-style: $defaultNone;
   }
   .page-header__mobile-menu .page-link {
     display: block;
+    font-size: 40px;
     padding: 10px;
+    margin-bottom: 26px;
     color: getColor('primary');
     text-decoration: $defaultNone;
     &:hover {
       color: getColor('secondary');
     }
+  }
+  .page-header__mobile-menu .phone-link {
+    display: block;
+    font-size: 34px;
+    padding: 10px;
+    margin-top: 266px;
+    color: getColor('secondary');
+    text-decoration: $defaultNone;
+  }
+  .page-header__mobile-menu .mail-link {
+    display: block;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 12px;
+    color: getColor('medium');
+    text-decoration: $defaultNone;
   }
 }
 // .page-header__link {
