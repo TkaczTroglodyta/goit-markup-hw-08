@@ -5,7 +5,8 @@
     justify-content: space-between;
     min-height: 60px;
     padding: 16px 0;
-    &__menu {
+    &__menu,
+    &__contacts {
       display: $defaultNone;
       // display: flex;
       // gap: 40px;
@@ -30,11 +31,6 @@
     &--dark {
       color: getColor('dark');
     }
-  }
-  .page-header__contacts {
-    display: $defaultNone;
-    // display: flex;
-    // gap: 40px;
   }
   .page-header__box {
     display: flex;
@@ -106,7 +102,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 24px 0;
-    &__menu {
+    &__menu,
+    &__contacts {
       display: flex;
       gap: 40px;
     }
@@ -165,10 +162,6 @@
     width: $fullWidth;
     transition-property: $defaultNone;
   }
-  .page-header__contacts {
-    display: flex;
-    gap: 40px;
-  }
   .contact {
     display: flex;
     align-items: center;
@@ -189,5 +182,8 @@
     font-weight: getWeight('medium');
     line-height: 1.2;
     letter-spacing: 0.02em;
+  }
+  .page-header__box {
+    display: $defaultNone;
   }
 }
