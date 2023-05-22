@@ -9,7 +9,7 @@
     display: $defaultNone;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1169px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .page-header {
     min-height: 80px;
     padding: 24px 0;
@@ -20,7 +20,7 @@
     }
   }
 }
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1200px) {
   .page-header {
     padding: 24px 0;
     &__menu,
@@ -42,7 +42,7 @@
     justify-content: flex-end;
   }
 }
-@media (min-width: 1170px) {
+@media (min-width: 1200px) {
   .page-header__nav {
     padding: 0;
   }
