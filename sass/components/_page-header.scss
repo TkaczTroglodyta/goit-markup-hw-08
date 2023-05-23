@@ -12,7 +12,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .page-header {
     min-height: 80px;
-    padding: 24px 0;
+    padding: 14px 0;
     &__menu {
       display: flex;
       gap: 60px;
@@ -59,7 +59,6 @@
   &__box {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
   }
 }
 @media screen and (min-width: 1200px) {
