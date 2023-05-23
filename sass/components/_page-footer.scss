@@ -7,7 +7,7 @@
     line-height: 1.1;
     text-transform: uppercase;
     color: getColor('light');
-    padding-top: 12px;
+    padding-top: 60px;
   }
 }
 .container__page-footer {
@@ -30,6 +30,11 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 }
 @media screen and (min-width: 1200px) {
+  .page-footer {
+    &__title {
+      padding-top: 12px;
+    }
+  }
   .container__page-footer {
     display: flex;
     flex-direction: row;
