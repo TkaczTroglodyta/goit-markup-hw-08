@@ -28,6 +28,11 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .page-footer {
+    &__title {
+      padding-top: 9px;
+    }
+  }
   .container__page-footer {
     display: flex;
     flex-direction: row;
@@ -35,7 +40,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     // text-align: center;
-    // gap: 30px;
+    gap: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
