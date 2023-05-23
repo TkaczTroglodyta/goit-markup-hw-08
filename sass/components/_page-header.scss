@@ -13,26 +13,40 @@
   .page-header {
     min-height: 80px;
     padding: 24px 0;
-    &__menu,
-    &__contacts {
+    &__menu {
       display: flex;
       gap: 60px;
     }
     &__box {
       display: $defaultNone;
     }
+    &__contacts {
+      display: flex;
+      flex-direction: column;
+      margin-right: 15px;
+    }
+  }
+  .contact {
+    font-size: 12px;
+    font-weight: getWeight('medium');
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding: 5px 0;
   }
 }
 @media screen and (min-width: 1200px) {
   .page-header {
     padding: 24px 0;
-    &__menu,
-    &__contacts {
+    &__menu {
       display: flex;
       gap: 60px;
     }
     &__box {
       display: $defaultNone;
+    }
+    &__contacts {
+      display: flex;
+      gap: 30px;
     }
   }
 }
