@@ -9,8 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: calc(90% - 2 * 15px);
-    min-width: 270px;
+    // max-width: calc(90% - 2 * 15px);
+    // min-width: 270px;
+    width: 450px;
     height: 120px;
     background-color: getColor('bg_light');
     border-radius: 4px;
@@ -31,7 +32,7 @@
     font-size: 14px;
     line-height: 1.7;
     padding-top: 10px;
-    max-width: calc(90% - 2 * 15px);
+    // max-width: calc(90% - 2 * 15px);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -48,8 +49,8 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      max-width: calc(90% - 2 * 15px);
-      min-width: 270px;
+      width: 270px;
+      height: 120px;
       background-color: getColor('bg_light');
       border-radius: 4px;
       margin-bottom: 30px;
