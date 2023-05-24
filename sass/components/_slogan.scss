@@ -2,7 +2,7 @@
   padding: 200px 0;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/team.jpg');
+    url('../images/team_1600@x1.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: getColor('bg_dark');
@@ -14,6 +14,14 @@
     color: getColor('light');
     text-transform: uppercase;
   }
+  &__btn {
+    padding: 10px 41px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 1200px) {
 }
 .slogan__btn,
 .footer-nsltr__btn,
@@ -27,8 +35,4 @@
   border: $defaultNone;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.slogan__btn {
-  padding: 10px 41px;
-  margin-top: 30px;
 }
