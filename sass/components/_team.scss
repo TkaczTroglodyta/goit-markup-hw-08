@@ -1,43 +1,43 @@
 .team {
   background-color: getColor('bg_light');
-}
-.team__list {
-  display: flex;
-  justify-content: space-between;
-  line-height: 1.2;
-  text-align: center;
-  padding-top: 50px;
-}
-.team__card {
-  height: 428px;
-  background-color: getColor('light');
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team__title {
-  font-weight: getWeight('medium');
-  line-height: 1.2;
-  padding-top: 30px;
-  text-transform: $defaultNone;
-}
-.team__text {
-  padding-top: 10px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 50px;
+  }
+  &__card {
+    height: 428px;
+    background-color: getColor('light');
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__title {
+    font-weight: getWeight('medium');
+    line-height: 1.2;
+    padding-top: 30px;
+    text-transform: $defaultNone;
+  }
+  &__text {
+    padding-top: 10px;
+  }
 }
 .team-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 16px 32px 30px 32px;
-}
-.team-links__icon {
-  cursor: pointer;
-  fill: getColor('tertiary');
-  padding: 6px;
-  border-radius: 50%;
-  transition: $hoverTransition;
-  &:hover {
-    fill: getColor('light');
-    background-color: getColor('secondary');
+  &__icon {
+    cursor: pointer;
+    fill: getColor('tertiary');
+    padding: 6px;
+    border-radius: 50%;
+    transition: $hoverTransition;
+    &:hover {
+      fill: getColor('light');
+      background-color: getColor('secondary');
+    }
   }
 }
