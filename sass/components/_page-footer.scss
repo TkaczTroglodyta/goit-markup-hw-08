@@ -95,7 +95,7 @@
   &__email {
     line-height: 1.3;
     color: rgba(255, 255, 255, 0.6);
-    max-width: 450px;
+    max-width: 320px;
     min-width: 320px;
     height: 50px;
     padding-left: 16px;
@@ -114,6 +114,13 @@
     justify-content: space-between;
     padding: 10px 28px 10px 42px;
     fill: getColor('light');
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-nsltr {
+    &__email {
+      max-width: 450px;
+    }
   }
 }
 @media screen and (min-width: 1200px) {
