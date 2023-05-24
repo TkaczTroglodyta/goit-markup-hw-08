@@ -1,24 +1,29 @@
-.customers__box {
-  cursor: pointer;
+.customers {
   display: flex;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-  border: 1px solid getColor('tertiary');
-  border-radius: 4px;
-  background: getColor('light');
-  transition: $hoverTransition;
-  &:hover,
-  &:focus {
-    border-color: getColor('secondary');
+  justify-content: space-between;
+  padding-top: 50px;
+  &__box {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid getColor('tertiary');
+    border-radius: 4px;
+    background: getColor('light');
+    transition: $hoverTransition;
+    &:hover,
+    &:focus {
+      border-color: getColor('secondary');
+    }
   }
-}
-.customers__icon {
-  padding-top: 2px;
-  fill: getColor('tertiary');
-  transition: $hoverTransition;
-  &:hover,
-  &:focus {
-    fill: getColor('secondary');
+  &__icon {
+    padding-top: 2px;
+    fill: getColor('tertiary');
+    transition: $hoverTransition;
+    &:hover,
+    &:focus {
+      fill: getColor('secondary');
+    }
   }
 }

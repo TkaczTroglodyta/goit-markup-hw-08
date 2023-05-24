@@ -17,6 +17,7 @@
 }
 .section {
   padding: 94px 0;
+  &__head,
   &__text {
     font-family: $fontFamilyPrimary;
     font-size: 36px;
