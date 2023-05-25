@@ -1,5 +1,5 @@
 .form {
-  width: 448px;
+  width: 370px;
   margin: 2px 40px;
   padding: 32px 0;
   text-align: center;
@@ -48,8 +48,9 @@
     }
   }
   &__agree {
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: left;
     margin-top: 3px;
     color: getColor('medium');
   }
@@ -68,6 +69,16 @@
     }
   }
 }
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 448px;
+    &__agree {
+      font-size: 14px;
+      line-height: 1.7;
+      text-align: center;
+    }
+  }
+}
 .form__box:hover,
 .form__box:focus-within,
 .form__comment:hover,
@@ -77,7 +88,6 @@
   fill: getColor('secondary');
   transition: $hoverTransition;
 }
-
 .form-checkbox {
   display: inline-flex;
   align-items: center;
