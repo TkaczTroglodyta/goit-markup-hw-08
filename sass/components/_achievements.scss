@@ -13,37 +13,37 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);
     }
   }
-}
-.achievements__title {
-  font-size: 18px;
-  font-weight: getWeight('bold');
-  line-height: 2;
-  letter-spacing: 0.06em;
-  padding: 20px 24px 4px;
-}
-.achievements__subtitle {
-  line-height: 1.9;
-  padding: 4px 24px 20px;
-}
-.achievements__box {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  overflow: hidden;
-}
-.achievements__text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: $fullWidth;
-  height: $fullHeight;
-  font-size: 18px;
-  line-height: 1.6;
-  color: getColor('light');
-  padding: 49px 45px 49px 24px;
-  background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  transition: $hoverTransition;
+  &__title {
+    font-size: 18px;
+    font-weight: getWeight('bold');
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding: 20px 24px 4px;
+  }
+  &__subtitle {
+    line-height: 1.9;
+    padding: 4px 24px 20px;
+  }
+  &__box {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    overflow: hidden;
+  }
+  &__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $fullWidth;
+    height: $fullHeight;
+    font-size: 18px;
+    line-height: 1.6;
+    color: getColor('light');
+    padding: 49px 45px 49px 24px;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: $hoverTransition;
+  }
 }
 .achievements__card:hover .achievements__text {
   transform: translateY(0);
