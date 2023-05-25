@@ -4,10 +4,10 @@
     display: flex;
     flex-direction: column;
     max-width: 768px;
-    min-width: 320px;
+    min-width: $fullWidth;
     gap: 30px;
   }
-  &__box {
+  &__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,11 +36,11 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .infos {
     &__list {
-      // flex-direction: row;
+      flex-direction: row;
       flex-wrap: wrap;
       max-width: 354px;
     }
-    &__item {
+    &__box {
       flex-basis: calc((100% - 30px) / 2);
     }
   }
@@ -52,7 +52,7 @@
       max-width: $defaultNone;
       min-width: $defaultNone;
     }
-    &__box {
+    &__item {
       display: inline-flex;
       width: 270px;
     }
