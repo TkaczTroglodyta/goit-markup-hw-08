@@ -2,9 +2,15 @@
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-  &__img {
+  &__box {
     position: relative;
     display: inline-flex;
+    max-width: $fullWidth;
+    height: auto;
+  }
+  &__img {
+    width: 370px;
+    height: 294px;
   }
   &__title {
     position: absolute;
