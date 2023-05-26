@@ -10,9 +10,6 @@
     gap: 30px;
   }
   &__card {
-    // max-width: 767px;
-    // min-width: 320px;
-    // margin: 0 auto;
     height: 622px;
     background-color: getColor('light');
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -26,24 +23,32 @@
   }
   &__title {
     font-weight: getWeight('medium');
+    font-size: 16px;
     line-height: 1.2;
     padding-top: 30px;
     text-transform: $defaultNone;
   }
   &__text {
+    font-size: 16px;
+    line-height: 1.2;
     padding-top: 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team {
+    &__card {
+      height: 536px;
+    }
+    &__img {
+      width: 354px;
+      height: 374px;
+    }
+  }
 }
 @media screen and (min-width: 1200px) {
   .team {
-    // flex-direction: row;
     flex-wrap: nowrap;
     &__card {
-      // max-width: 767px;
-      // min-width: 320px;
-      // margin: 0 auto;
       height: 428px;
     }
     &__img {
@@ -56,7 +61,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 32px 30px 32px;
+  padding: 16px 122px 24px;
   &__icon {
     cursor: pointer;
     fill: getColor('tertiary');
@@ -67,5 +72,15 @@
       fill: getColor('light');
       background-color: getColor('secondary');
     }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team-links {
+    padding: 16px 74px 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-links {
+    padding: 16px 32px 30px 32px;
   }
 }
