@@ -10,11 +10,19 @@
     gap: 30px;
   }
   &__card {
+    // max-width: 767px;
+    // min-width: 320px;
+    // margin: 0 auto;
     height: 428px;
     background-color: getColor('light');
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+  }
+  &__img {
+    display: block;
+    max-width: $fullWidth;
+    height: auto;
   }
   &__title {
     font-weight: getWeight('medium');
@@ -30,7 +38,14 @@
 }
 @media screen and (min-width: 1200px) {
   .team {
+    // flex-direction: row;
     flex-wrap: nowrap;
+    &__card {
+      // max-width: 767px;
+      // min-width: 320px;
+      // margin: 0 auto;
+      height: 428px;
+    }
   }
 }
 .team-links {
