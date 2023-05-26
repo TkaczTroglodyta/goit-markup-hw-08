@@ -2,10 +2,12 @@
   background-color: getColor('bg_light');
   &__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     line-height: 1.2;
     text-align: center;
     padding-top: 50px;
+    gap: 30px;
   }
   &__card {
     height: 428px;
@@ -22,6 +24,13 @@
   }
   &__text {
     padding-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    flex-wrap: nowrap;
   }
 }
 .team-links {

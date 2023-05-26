@@ -1,5 +1,5 @@
 .infos {
-  padding-bottom: 0;
+  padding-bottom: 60px;
   &__list {
     display: flex;
     flex-direction: column;
@@ -47,6 +47,7 @@
 }
 @media screen and (min-width: 1200px) {
   .infos {
+    padding-bottom: 0px;
     &__list {
       flex-direction: row;
       max-width: $defaultNone;
