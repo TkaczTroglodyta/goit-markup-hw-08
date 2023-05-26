@@ -1,13 +1,11 @@
 .slogan {
-  // width: 480px;
-  // height: 400px;
   padding: 120px 0;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/team_480@1x.jpg');
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  // background-size: 480px 400px;
+  background-position: center;
+  background-size: cover;
   background-color: getColor('bg_dark');
   &__text {
     font-size: 26px;
@@ -28,35 +26,35 @@
       url('../images/team_480@2x.jpg');
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .slogan {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/team_768@1x.jpg');
-  }
-}
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .slogan {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/team_768@2x.jpg');
-  }
-}
-@media screen and (min-width: 1200px) {
-  .slogan {
-    padding: 200px 0;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/team_1600@1x.jpg');
-    &__text {
-      font-size: 44px;
-      line-height: 1.36;
-    }
-  }
-}
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .slogan {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/team_1600@2x.jpg');
-  }
-}
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//   .slogan {
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/team_768@1x.jpg');
+//   }
+// }
+// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//   .slogan {
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/team_768@2x.jpg');
+//   }
+// }
+// @media screen and (min-width: 1200px) {
+//   .slogan {
+//     padding: 200px 0;
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/team_1600@1x.jpg');
+//     &__text {
+//       font-size: 44px;
+//       line-height: 1.36;
+//     }
+//   }
+// }
+// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//   .slogan {
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/team_1600@2x.jpg');
+//   }
+// }
 .slogan__btn,
 .footer-nsltr__btn,
 .form__btn {
