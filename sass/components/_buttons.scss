@@ -3,7 +3,8 @@
 }
 .buttons {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 8px;
   padding-bottom: 50px;
   &__filter {
@@ -12,7 +13,7 @@
     background-color: getColor('bg_light');
     font-weight: getWeight('medium');
     line-height: 1.6;
-    padding: 6px 22px;
+    padding: 6px 32px;
     border: $defaultNone;
     border-radius: 4px;
     transition: $hoverTransition;
@@ -26,6 +27,16 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .buttons {
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1200px) {
+  .buttons {
+    flex-wrap: nowrap;
+    justify-content: center;
+    &__filter {
+      padding: 6px 22px;
+    }
+  }
 }
