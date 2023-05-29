@@ -1,4 +1,5 @@
 @use './utils/variables' as *;
+@use './utils/mixins' as *;
 @use './utils/colors' as *;
 @use './utils/weights' as *;
 @import './utils/reset';
