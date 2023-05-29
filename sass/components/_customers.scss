@@ -31,18 +31,18 @@
       fill: getColor('secondary');
     }
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .customers {
-    &__box {
-      flex-basis: calc((100% - 60px) / 3);
+  @include tablet {
+    .customers {
+      &__box {
+        flex-basis: calc((100% - 60px) / 3);
+      }
     }
   }
-}
-@media screen and (min-width: 1200px) {
-  .customers {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 170px;
+  @include desktop {
+    .customers {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      width: 170px;
+    }
   }
 }
