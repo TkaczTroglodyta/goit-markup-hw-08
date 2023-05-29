@@ -25,6 +25,7 @@
     font-size: 14px;
     font-weight: getWeight('bold');
     line-height: 1.1;
+    text-align: center;
     text-transform: uppercase;
   }
   &__text {
@@ -39,6 +40,9 @@
       flex-direction: row;
       flex-wrap: wrap;
       max-width: 354px;
+    }
+    &__title {
+      text-align: left;
     }
     &__box {
       flex-basis: calc((100% - 30px) / 2);
@@ -56,6 +60,9 @@
     &__item {
       display: inline-flex;
       width: 270px;
+    }
+    &__title {
+      text-align: left;
     }
   }
 }
