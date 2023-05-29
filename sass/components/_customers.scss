@@ -38,11 +38,11 @@
       }
     }
   }
-  @include desktop {
-    .customers {
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      width: 170px;
-    }
+}
+@media screen and (min-width: 1200px) {
+  .customers {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 170px;
   }
 }
